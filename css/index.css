@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
+    width: 100vw;
 	margin: 0 auto;
 }
 
@@ -265,7 +266,7 @@ footer {
     }
   }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     div.headerImage {
         display: none;
     }
