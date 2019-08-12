@@ -107,8 +107,8 @@ h1 {
 	justify-content: space-between;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	margin: 20px 0;
-	padding: 20px 0;
+	margin: 20px 20px;
+	padding: 20px 20px;
 }
 
 .content .service {
@@ -320,5 +320,30 @@ footer {
         width: 95vw;
         margin: 10px;
         padding: 10px;
+    }
+
+    .bottom {
+        align-content: center;
+    }
+
+    .bottom .facts {
+        width: 90%;
+        align-content: center;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .services-header-img {
+        width: 90vw;
+    }
+
+    .services {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .services-info-img {
+        margin: 20px;
+        padding: 20px;
     }
  }
