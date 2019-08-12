@@ -94,7 +94,6 @@ header nav a:hover {
 
 .title {
 	display: flex;
-	align-items: center;
 }
 
 h1 {
@@ -216,8 +215,8 @@ footer {
     }
 
     .top .title {
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
         text-align: center;
         width: 100vw;
         border-top: 1px solid gray;
@@ -263,6 +262,28 @@ footer {
     .vision {
         margin: 10px;
         padding: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .content .service {
+        width: 90%;
+    }
+
+    .services-info-img {
+        display: none;
+    }
+
+    .bottom {
+        align-content: center;
+    }
+
+    .bottom .facts {
+        width: 90%;
+        align-content: center;
     }
   }
 
